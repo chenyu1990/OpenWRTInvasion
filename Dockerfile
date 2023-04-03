@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . ./
 
-CMD [ "python", "remote_command_execution_vulnerability.py" ]
+CMD [ "python", "remote_command_execution_vulnerability_v2.py" ]
